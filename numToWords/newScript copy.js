@@ -23,6 +23,12 @@ convertBtn.addEventListener('click', function () {
     console.log(inputNumber);
     console.log(numToString);
 
+    resultHundred = '';
+    resultThousand = '';
+    resultMillion = '';
+    resultBillion = '';
+    resultTrillion = '';
+
     if (inputNumber < 0){
         alert(`Enter a valid number`)
     }
@@ -372,5 +378,5 @@ convertBtn.addEventListener('click', function () {
         }
     }
 
-    outputToUser.innerText = resultTrillion + resultBillion + resultMillion + resultThousand + resultHundred;
+    outputToUser.innerText = `${inputNumber} =` + resultTrillion + resultBillion + resultMillion + resultThousand + resultHundred;
 })
