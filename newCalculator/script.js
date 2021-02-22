@@ -113,8 +113,8 @@ const calculator = {
 
 
 
-  function calculate(fn) {
-    return new Function('return ' + fn)();
-  }
-  debugger; 
-  console.log(calculate('81+9'))
+  // function calculate(fn) {
+  //   return new Function('return ' + fn)();
+  // }
+  // debugger; 
+  // console.log(calculate('81+9'))
